@@ -1,3 +1,4 @@
+<!-- 14 March 2025 -->
 <!DOCTYPE html>
 <html lang="en-US">
 <head>
@@ -13,20 +14,44 @@
         <nav>
             <a href="#">Home</a>
             <a href="wwr/">Rafting Website</a>
+            <a href="https://linkedin.com">LinkedIn</a>
+            <a href="https://facebook.com">Facebook</a>
         </nav>
     </header>
-    <main>
-        <h1>Josh | WDD 130</h1>
-        <img src="images/profile.jpg" alt="Josh's Profile Picture" width="200">
-        <p>My name is Josh. I am from the United States. My hobbies include programming, studying Japanese, and watching TV. Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, nulla sunt. Optio omnis sed nihil? Dolorum, in. Odio quo quibusdam nesciunt tempora, quod exercitationem qui sint ratione, eos consequatur veritatis!</p>
-    </main>
-    <aside>
+    <aside class="box">
         <h2>United States</h2>
-        <img src="images/us_map.png" alt="Map of the United States" width="200">
-        <br>
-        <cite><a href="https://en.wikipedia.org/wiki/Cartography_of_the_United_States#/media/File:Map_of_USA_with_state_and_territory_names_2.png">Image source</a></cite>
+        <div id="map">
+            <img src="images/us_map.png" alt="Map of the United States" width="200" class="image">
+            <br>
+            <cite><a href="https://en.wikipedia.org/wiki/Cartography_of_the_United_States#/media/File:Map_of_USA_with_state_and_territory_names_2.png">Image source</a></cite>
+        </div>
         <p>The United States is a country located in North America with 50 states.</p>
     </aside>
+    <main>
+        <h1>Josh | WDD 130</h1>
+        <div class="box" id="main-div">
+            <img src="images/profile.jpg" alt="Josh's Profile Picture" width="200" id="main-img" class="image">
+            <p>My name is Josh. I am from the United States. My hobbies include programming, studying Japanese, and watching TV. Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, nulla sunt. Optio omnis sed nihil? Dolorum, in. Odio quo quibusdam nesciunt tempora, quod exercitationem qui sint ratione, eos consequatur veritatis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate eos temporibus fugit eveniet, exercitationem voluptas molestiae fugiat magni. Illo, nemo vitae? Fuga modi, in impedit voluptates fugiat quam praesentium eligendi! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est, accusantium? Enim obcaecati nobis explicabo, nostrum reiciendis inventore saepe officiis perspiciatis reprehenderit recusandae, deserunt exercitationem quia eum. Quae harum voluptate sit!</p>
+        </div>
+        <div class="box" id="temple-div">
+            <div class="image-container">
+                <img src="https://newsroom.churchofjesuschrist.org/media/960x540/Sapporo-temple-rendering.jpg" alt="Image of the Sapporo Japan Temple" id="temple-img" class="image">
+                <br>
+                <cite><a href="https://en.wikipedia.org/wiki/Cartography_of_the_United_States#/media/File:Map_of_USA_with_state_and_territory_names_2.png">Image source</a></cite>
+            </div>
+            <ul>
+                <li>
+                    <a href="https://www.churchofjesuschrist.org/temples/details/salt-lake-temple?lang=eng" target="_blank">Salt Lake Temple</a>
+                </li>
+                <li>
+                    <a href="https://www.churchofjesuschrist.org/temples/details/san-diego-california-temple?lang=eng" target="_blank">San Diego California Temple</a>
+                </li>
+                <li>
+                    <a href="https://www.churchofjesuschrist.org/temples/details/sapporo-japan-temple?lang=eng" target="_blank"> Sapporo Japan Temple</a>
+                </li>
+            </ul>
+        </div>
+    </main>
     <footer>
         <p>&copy;2025 | Josh | United States</p>
     </footer>
