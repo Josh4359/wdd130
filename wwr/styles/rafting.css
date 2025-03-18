@@ -32,6 +32,7 @@ header nav ul {
 header nav ul li a {
     margin: 5px;
     font-size: 1.2rem;
+    color: var(--primary-color);
     padding: 1rem;
     background-color: rgba(255, 255, 255, 0);
     text-decoration: none;
@@ -76,10 +77,6 @@ p, a {
     font-weight: 400;
     font-style: normal;
     font-variation-settings: "wdth" 100;
-}
-
-a {
-    color: var(--primary-color);
 }
 
 section {
