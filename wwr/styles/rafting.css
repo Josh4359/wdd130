@@ -172,10 +172,14 @@ section {
     box-shadow: 0 0 10px rgba(0, 0, 0, .5);
 }
 
+
+.social-links a {
+    text-decoration: none;
+}
+
 .social-links a img {
     height: 30px;
     margin: 10px;
-    text-decoration: none;
 }
 
 /* ID Selectors */
